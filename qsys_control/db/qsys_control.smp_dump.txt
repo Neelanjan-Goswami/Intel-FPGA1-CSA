@@ -1,0 +1,38 @@
+
+State Machine - |qsys_control_top|nios2_control:u0|altera_onchip_flash:onchip_flash_0|altera_onchip_flash_avmm_data_controller:avmm_data_controller|read_state
+Name read_state.READ_STATE_CLEAR read_state.READ_STATE_FINAL read_state.READ_STATE_READY read_state.READ_STATE_DUMMY read_state.READ_STATE_SETUP read_state.READ_STATE_ADDR read_state.READ_STATE_IDLE 
+read_state.READ_STATE_IDLE 0 0 0 0 0 0 0 
+read_state.READ_STATE_ADDR 0 0 0 0 0 1 1 
+read_state.READ_STATE_SETUP 0 0 0 0 1 0 1 
+read_state.READ_STATE_DUMMY 0 0 0 1 0 0 1 
+read_state.READ_STATE_READY 0 0 1 0 0 0 1 
+read_state.READ_STATE_FINAL 0 1 0 0 0 0 1 
+read_state.READ_STATE_CLEAR 1 0 0 0 0 0 1 
+
+State Machine - |qsys_control_top|nios2_control:u0|altera_onchip_flash:onchip_flash_0|altera_onchip_flash_avmm_data_controller:avmm_data_controller|erase_state
+Name erase_state.ERASE_STATE_ERROR erase_state.ERASE_STATE_RESET erase_state.ERASE_STATE_WAIT_DONE erase_state.ERASE_STATE_WAIT_BUSY erase_state.ERASE_STATE_ADDR erase_state.ERASE_STATE_IDLE 
+erase_state.ERASE_STATE_IDLE 0 0 0 0 0 0 
+erase_state.ERASE_STATE_ADDR 0 0 0 0 1 1 
+erase_state.ERASE_STATE_WAIT_BUSY 0 0 0 1 0 1 
+erase_state.ERASE_STATE_WAIT_DONE 0 0 1 0 0 1 
+erase_state.ERASE_STATE_RESET 0 1 0 0 0 1 
+erase_state.ERASE_STATE_ERROR 1 0 0 0 0 1 
+
+State Machine - |qsys_control_top|nios2_control:u0|altera_onchip_flash:onchip_flash_0|altera_onchip_flash_avmm_data_controller:avmm_data_controller|write_state
+Name write_state.WRITE_STATE_ERROR write_state.WRITE_STATE_RESET write_state.WRITE_STATE_WAIT_DONE write_state.WRITE_STATE_WAIT_BUSY write_state.WRITE_STATE_WRITE write_state.WRITE_STATE_ADDR write_state.WRITE_STATE_IDLE 
+write_state.WRITE_STATE_IDLE 0 0 0 0 0 0 0 
+write_state.WRITE_STATE_ADDR 0 0 0 0 0 1 1 
+write_state.WRITE_STATE_WRITE 0 0 0 0 1 0 1 
+write_state.WRITE_STATE_WAIT_BUSY 0 0 0 1 0 0 1 
+write_state.WRITE_STATE_WAIT_DONE 0 0 1 0 0 0 1 
+write_state.WRITE_STATE_RESET 0 1 0 0 0 0 1 
+write_state.WRITE_STATE_ERROR 1 0 0 0 0 0 1 
+
+State Machine - |qsys_control_top|nios2_control:u0|nios2_control_nios2_cpu:nios2_cpu|nios2_control_nios2_cpu_cpu:cpu|nios2_control_nios2_cpu_cpu_nios2_oci:the_nios2_control_nios2_cpu_cpu_nios2_oci|nios2_control_nios2_cpu_cpu_debug_slave_wrapper:the_nios2_control_nios2_cpu_cpu_debug_slave_wrapper|nios2_control_nios2_cpu_cpu_debug_slave_tck:the_nios2_control_nios2_cpu_cpu_debug_slave_tck|DRsize
+Name DRsize.101 DRsize.100 DRsize.011 DRsize.010 DRsize.001 DRsize.000 
+DRsize.000 0 0 0 0 0 0 
+DRsize.001 0 0 0 0 1 1 
+DRsize.010 0 0 0 1 0 1 
+DRsize.011 0 0 1 0 0 1 
+DRsize.100 0 1 0 0 0 1 
+DRsize.101 1 0 0 0 0 1 

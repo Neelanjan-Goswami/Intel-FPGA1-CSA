@@ -1,0 +1,18 @@
+Fitter Status : Successful - Sun May 31 19:11:58 2020
+Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+Revision Name : qsys_control
+Top-level Entity Name : qsys_control_top
+Family : MAX 10
+Device : 10M08DAF484C8GES
+Timing Models : Preliminary
+Total logic elements : 4,790 / 8,064 ( 59 % )
+    Total combinational functions : 4,244 / 8,064 ( 53 % )
+    Dedicated logic registers : 2,777 / 8,064 ( 34 % )
+Total registers : 2777
+Total pins : 14 / 250 ( 6 % )
+Total virtual pins : 0
+Total memory bits : 80,728 / 387,072 ( 21 % )
+Embedded Multiplier 9-bit elements : 6 / 48 ( 13 % )
+Total PLLs : 1 / 2 ( 50 % )
+UFM blocks : 1 / 1 ( 100 % )
+ADC blocks : 0 / 1 ( 0 % )

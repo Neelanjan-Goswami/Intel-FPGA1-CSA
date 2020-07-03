@@ -1,0 +1,62 @@
+# Reading C:/intelFPGA_lite/16.1/modelsim_ase/tcl/vsim/pref.tcl
+# do pipemult2_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# ** Error: Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# ** Error: # Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/16.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/AlteraPrj/pipemultQP16_1/Schematic/ram.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:24:27 on Feb 01,2017
+# vcom -reportprogress 300 -93 -work work C:/AlteraPrj/pipemultQP16_1/Schematic/ram.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ram
+# -- Compiling architecture rtl of ram
+# End time: 11:24:37 on Feb 01,2017, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/AlteraPrj/pipemultQP16_1/Schematic/mult.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:24:37 on Feb 01,2017
+# vcom -reportprogress 300 -93 -work work C:/AlteraPrj/pipemultQP16_1/Schematic/mult.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mult
+# -- Compiling architecture SYN of mult
+# End time: 11:24:37 on Feb 01,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.ram
+# vsim work.ram 
+# Start time: 11:27:04 on Feb 01,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.ram(rtl)
+add wave -position end  sim:/ram/clock
+add wave -position end  sim:/ram/data
+add wave -position end  sim:/ram/q
+add wave -position end  sim:/ram/ram_block
+add wave -position end  sim:/ram/rdaddress
+add wave -position end  sim:/ram/rdaddress_reg
+add wave -position end  sim:/ram/wraddress
+add wave -position end  sim:/ram/wren
+force -freeze sim:/ram/clock 1 0, 0 {50 ps} -r 100
+force -freeze sim:/ram/data 0101101001011010 0
+run
+run
+run
+run
+run
+run
+# End time: 12:09:03 on Feb 01,2017, Elapsed time: 0:41:59
+# Errors: 0, Warnings: 0

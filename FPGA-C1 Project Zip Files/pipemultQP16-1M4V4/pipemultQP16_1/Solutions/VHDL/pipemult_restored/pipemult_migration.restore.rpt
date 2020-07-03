@@ -1,0 +1,94 @@
+Restore Archived Project report for pipemult_migration
+Mon Dec 26 21:31:41 2016
+Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2016  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Mon Dec 26 21:31:41 2016 ;
+; Revision Name                   ; pipemult_migration                    ;
+; Top-level Entity Name           ; pipemult                              ;
+; Family                          ; Cyclone V                             ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'C:/AlteraPrj/pipemultQP16_1/Solutions/VHDL/pipemult.qar' into the 'C:/AlteraPrj/pipemultQP16_1/Solutions/VHDL/pipemult_restored/' directory
+Info: Generated report 'pipemult_migration.restore.rpt'
+Info (23030): Evaluation of Tcl script c:/intelfpga_lite/16.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 615 megabytes
+    Info: Processing ended: Mon Dec 26 21:31:41 2016
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++-------------------------+
+; Files Restored          ;
++-------------------------+
+; File Name               ;
++-------------------------+
+; qar_info.json           ;
+; io_assignments.tcl      ;
+; mult.cmp                ;
+; mult.qip                ;
+; mult.vhd                ;
+; mult_inst.vhd           ;
+; pipemult.qpf            ;
+; pipemult.qsf            ;
+; pipemult.sdc            ;
+; pipemult.vhd            ;
+; pipemult_lc.qsf         ;
+; pipemult_lc.sdc         ;
+; pipemult_migration.qsf  ;
+; pipemult_migration.sdc  ;
+; ram.cmp                 ;
+; ram.hex                 ;
+; ram.qip                 ;
+; ram.vhd                 ;
+; ram_inst.vhd            ;
+; assignment_defaults.qdf ;
++-------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+

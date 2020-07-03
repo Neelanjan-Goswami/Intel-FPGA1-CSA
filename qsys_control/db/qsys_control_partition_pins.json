@@ -1,0 +1,77 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "USE_LED[1]",
+					"strict" : false
+				},
+				{
+					"name" : "USE_LED[2]",
+					"strict" : false
+				},
+				{
+					"name" : "USE_LED[3]",
+					"strict" : false
+				},
+				{
+					"name" : "USE_LED[4]",
+					"strict" : false
+				},
+				{
+					"name" : "USE_LED[5]",
+					"strict" : false
+				},
+				{
+					"name" : "USE_LED[6]",
+					"strict" : false
+				},
+				{
+					"name" : "USE_LED[7]",
+					"strict" : false
+				},
+				{
+					"name" : "USE_LED[8]",
+					"strict" : false
+				},
+				{
+					"name" : "SYS_CLK",
+					"strict" : false
+				},
+				{
+					"name" : "PB[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PB[4]",
+					"strict" : false
+				},
+				{
+					"name" : "PB[2]",
+					"strict" : false
+				},
+				{
+					"name" : "PB[3]",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

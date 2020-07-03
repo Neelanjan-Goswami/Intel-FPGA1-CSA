@@ -1,0 +1,13 @@
+
+
+C:/AlteraPrj/pipemultQP16_1/Schematic/SQRT.vhd
+
+May 30 12PM:23:28>: The following design file, which has identical name but a different extension 
+from the specified variation file, already exists in the working directory:
+
+SQRT.v
+
+This may create a conflict of design files and/or lead to undesirable side
+effects.
+
+Is it OK to continue file generation?
